@@ -125,13 +125,20 @@ h2 {
     height: 20px;
 }
 #cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
     align-items: center;
     text-align: center;
+    width: 100%;
+    flex-wrap: wrap;
     padding: 10px;
-    display: flex;
-    justify-content: space-between;
 }
-
+.card-x5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .card-top{
     display: flex;
