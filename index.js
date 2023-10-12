@@ -84,15 +84,15 @@ const saveLocalStorage = (pizza) => {
 const renderCard = (pizza) => {
 
   return `
-  <div class="card-container">
-    <img src="${pizza.imagen}" alt="${pizza.nombre}" class="pizzas-img">
+  <div class="card-container2">
+    <img src="${pizza.imagen}" alt="${pizza.nombre}" class="pizzas-img2">
     <div class="card-info">
-        <div class="pizza-name">
+        <div class="pizza-name2">
             <h3>
                 ${pizza.nombre}
             </h3>
         </div>
-        <div class="pizza-info">
+        <div class="pizza-info2">
             <p>Ingredientes: ${pizza.ingredientes.join(', ')}</p>
             <p>$${pizza.precio}</p>
         </div>
